@@ -1,26 +1,24 @@
-# DS201-Final-Project-Penguins
-
-## Group Members
-- Chung Vong
-- Maria
-- Eduardo
-- Gabriel
+# DS 201 Final Project: Penguin Data Exploration & Visualization
 
 ## Project Overview
-This project performs an Exploratory Data Analysis (EDA) on the "Penguins" dataset from the Seaborn library. We focus on data cleaning, statistical analysis, and creating professional visualizations using **Matplotlib**.
+This project performs an Exploratory Data Analysis (EDA) on the "Penguins" dataset. We focus on data cleaning, handling missing values, and creating professional visualizations to discover biological patterns.
+
+## Team Members & Responsibilities
+- **Eduardo Carreno**: Lead Coder (Data Exploration, Cleaning & Matplotlib Charts)
+- **Maria**: Documentation Specialist (Dataset Description & Visual Analysis)
+- **Gabriel**: Insight Analyst (Key Findings & Final Report Synthesis)
+- **Chung Vong**: Repository Manager (GitHub Management, Data Hosting & Documentation)
+
+## Repository Structure
+- `Final_Project_DS201.ipynb`: The main Python Notebook containing all code and plots.
+- `penguins.csv`: The raw dataset used for the analysis.
+- `Project_Report.pdf`: The comprehensive technical report.
+- `README.md`: Project documentation (this file).
 
 ## Tools Used
-- **Python**: Core programming language.
-- **Pandas**: Data manipulation and cleaning.
-- **Matplotlib**: Data visualization (No Seaborn/Plotly used for charts).
-- **GitHub**: Version control and collaboration.
+- **Python (Pandas)**: For data manipulation and cleaning.
+- **Matplotlib**: For all professional visualizations (Strictly no Seaborn/Plotly for charts).
+- **GitHub**: For version control and team collaboration.
 
-## Key Insights
-1. **Species Distribution**: Gentoo penguins tend to have a significantly higher body mass compared to Adelie and Chinstrap.
-2. **Correlation**: There is a strong positive correlation between flipper length and body mass.
-3. **Island Patterns**: Certain species are exclusive to specific islands (e.g., Gentoo is only found on Biscoe island).
-
-## How to Run
-1. Clone this repository.
-2. Open `Final_Project_DS201.ipynb` in Jupyter Notebook or Google Colab.
-3. Run all cells to see the analysis and plots.
+## Key Learnings
+We successfully performed a real-world data science workflow, learned to handle missing data using Median/Mode imputation, and mastered the art of professional plotting with Matplotlib.
