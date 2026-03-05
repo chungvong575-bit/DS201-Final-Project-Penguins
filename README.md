@@ -1,6 +1,6 @@
 # DS 201 Final Project: Penguin Data Exploration & Visualization
 
-## Project Overview
+> Project Overview
 This project performs an Exploratory Data Analysis (EDA) on the "Penguins" dataset. We focus on data cleaning, handling missing values, and creating professional visualizations to discover biological patterns.
 
 ## Team Members & Responsibilities
