@@ -4,16 +4,32 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 
-### Project Overview: 
+## 📝Project Overview: 
 > This project performs an Exploratory Data Analysis (EDA) on the Penguins dataset. The goal is to explore the data, clean missing values, and create clear visualizations to better understand biological patterns among penguin species.
 
-### 📊During the analysis, we focused on:
+### The project followed a structured data analysis workflow:
+1. Data Collection  
+   The dataset was obtained from the Palmer Penguins dataset.
+
+2. Data Exploration  
+   Initial exploration was performed to understand the structure of the data and identify missing values.
+
+3. Data Cleaning  
+   Missing values were handled using median and mode imputation techniques.
+
+4. Data Visualization  
+   Matplotlib was used to create visualizations that highlight biological patterns.
+
+5. Insights & Interpretation  
+   Visualizations were analyzed to extract meaningful insights about penguin species.
+
+## 📊During the analysis, we focused on:
 - Data cleaning
 - Handling missing values
 - Creating visualizations
 - Identifying patterns and insights in the dataset
 
-### 💻Dataset information:
+## 💻Dataset information:
 The dataset contains biological measurements of penguins from three species:
 - Adelie
 - Chinstrap
@@ -28,26 +44,63 @@ Main variables include:
 - island
 - sex
 
-### Vizualizations: 
+## 📈Vizualizations: 
+### Species Distribution
+<img src="species.png" alt="Species Distribution">
 
+### Bill Length Distribution
+<img src="bill_length.png" alt="Bill Length Distribution">
 
+### Bill Length vs. Bill Depth by Species
+<img src="scatter.png" alt="Bill Length vs. Bill Depth by Species">
 
-## Team Members & Responsibilities
-- **Eduardo Carreno**: Lead Coder (Data Exploration, Cleaning & Matplotlib Charts)
-- **Maria**: Documentation Specialist (Dataset Description & Visual Analysis)
-- **Gabriel**: Insight Analyst (Key Findings & Final Report Synthesis)
-- **Chung Vong**: Repository Manager (GitHub Management, Data Hosting & Documentation)
+### Distribution of Penguin Species by Island
+<img src="distribuition_island.png" alt="Distribution of Penguin Species by Island">
 
-## Repository Structure
+## 💡Key Insights
+### Some interesting patterns observed during the analysis:
+- Gentoo penguins tend to have larger body mass compared to other species.
+- Adelie penguins show smaller bill length on average.
+- There is a positive relationship between flipper length and body mass.
+
+## 📚Key Learnings
+### Through this project, we practiced a real-world data science workflow, including:
+- Performing exploratory data analysis (EDA)
+- Creating professional visualizations using Matplotlib
+- Collaborating using GitHub
+This project helped us better understand how data analysis can be used to identify patterns and communicate insights effectively.
+
+## 🛠️Tools Used
+- **Python (Pandas)**: Used for data manipulation, cleaning, and preparation.
+- **Matplotlib**: For all professional visualizations (Strictly no Seaborn/Plotly for charts).
+- **GitHub**: Used for version control and collaboration between team members.
+
+## 🪜Repository Structure
 - `Final_Project_DS201.ipynb`: The main Python Notebook containing all code and plots.
 - `penguins.csv`: The raw dataset used for the analysis.
 - `Project_Report.pdf`: The comprehensive technical report.
 - `README.md`: Project documentation (this file).
 
-## Tools Used
-- **Python (Pandas)**: For data manipulation and cleaning.
-- **Matplotlib**: For all professional visualizations (Strictly no Seaborn/Plotly for charts).
-- **GitHub**: For version control and team collaboration.
+## ⚙️How to Run the project: 
+1. Clone the repository git clone [this repository](https://github.com/chungvong575-bit/DS201-Final-Project-Penguins)
 
-## Key Learnings
-We successfully performed a real-world data science workflow, learned to handle missing data using Median/Mode imputation, and mastered the art of professional plotting with Matplotlib.
+2. Install required libraries pip install
+   - pip install pandas
+   - pip install matplotlib
+   - pip install jupyter
+
+3. Run the notebook jupyter notebook
+   - Final_Project_DS201.ipynb
+
+## ⭐️Team Members & Responsibilities
+- **Eduardo Carreno**: Lead Coder (Data Exploration, Cleaning & Matplotlib Charts)
+- **Maria**: Documentation Specialist (Dataset Description & Visual Analysis)
+- **Gabriel**: Insight Analyst (Key Findings & Final Report Synthesis)
+- **Chung Vong**: Repository Manager (GitHub Management, Data Hosting & Documentation)
+
+## 📍Data Source
+### The dataset is based on the Palmer Penguins dataset.
+Source:
+https://allisonhorst.github.io/palmerpenguins/
+
+
