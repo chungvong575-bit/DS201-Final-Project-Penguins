@@ -47,15 +47,47 @@ Main variables include:
 ## 📈Vizualizations: 
 ### Species Distribution
 <img src="species.png" alt="Species Distribution">
+This bar chart shows the distribution of penguin species in the dataset.
+
+The Adelie species appears most frequently, with the highest number of observations. The Gentoo species is the second most common, while the Chinstrap species has the smallest representation in the dataset.
+
+This distribution indicates that the dataset contains more samples of Adelie penguins, which may influence statistical analysis and visual patterns when comparing species.
+
+<br>
 
 ### Bill Length Distribution
 <img src="bill_length.png" alt="Bill Length Distribution">
+This histogram illustrates the distribution of penguin bill length measured in millimeters.
+
+Most bill length values fall approximately between 38 mm and 50 mm, indicating that this is the most common range for penguin bill size in the dataset. The distribution shows moderate variability, with a few larger values extending beyond 55 mm.
+
+Overall, the histogram suggests that penguin bill lengths are clustered within a central range, with fewer extreme values.
+
+<br>
 
 ### Bill Length vs. Bill Depth by Species
 <img src="scatter.png" alt="Bill Length vs. Bill Depth by Species">
+This chart shows how different penguin species are distributed across the islands in the dataset.
+
+The Gentoo species appears primarily on Biscoe Island, where it has the highest count among the groups shown. The Adelie species is distributed across multiple islands, including Biscoe, Dream, and Torgersen, indicating a wider geographical presence.
+
+The Chinstrap species appears mainly on Dream Island, suggesting that this species may be more geographically concentrated in the dataset.
+
+Overall, the chart highlights how penguin species are associated with specific islands, which may reflect differences in habitat or environmental conditions.
+
+<br>
 
 ### Distribution of Penguin Species by Island
 <img src="distribuition_island.png" alt="Distribution of Penguin Species by Island">
+This scatter plot shows the relationship between bill length and bill depth for different penguin species. Each point represents an individual penguin, and the colors distinguish the three species: Adelie, Chinstrap, and Gentoo.
+
+The plot reveals clear clustering patterns among the species. Adelie penguins generally have shorter bill lengths but deeper bills, appearing mostly on the left side of the chart with relatively higher bill depth values. Chinstrap penguins tend to have longer bills with moderate depth, forming a cluster toward the middle-right of the plot.
+
+In contrast, Gentoo penguins typically have longer bill lengths but noticeably shallower bill depths, appearing in the lower-right area of the chart.
+
+Overall, the visualization highlights how bill length and bill depth vary by species, suggesting that these two measurements can help differentiate penguin species based on their physical characteristics.
+
+<br>
 
 ## 💡Key Insights
 ### Some interesting patterns observed during the analysis:
