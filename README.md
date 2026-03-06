@@ -89,6 +89,18 @@ Overall, the visualization highlights how bill length and bill depth vary by spe
 
 <br>
 
+### Bill Ratio Distribution by Species
+<img src="ratio.png" alt="Bill Ratio Distribution by Species">
+This box plot illustrates the distribution of the bill ratio across different penguin species. The bill ratio represents the relationship between bill length and bill depth, helping to compare the relative shape of the penguins' bills.
+
+From the visualization, Gentoo penguins show the highest bill ratio values, indicating that they generally have longer and relatively thinner bills compared to the other species. Chinstrap penguins present moderate bill ratio values, suggesting a more balanced proportion between bill length and depth.
+
+In contrast, Adelie penguins display the lowest bill ratio values, which indicates that their bills tend to be shorter and deeper relative to the other species.
+
+The box plot also highlights the spread and variability of the data, including potential outliers. Overall, the chart suggests that the bill ratio is an effective metric for distinguishing penguin species based on bill morphology.
+
+<br>
+
 ## 💡Key Insights
 ### Some interesting patterns observed during the analysis:
 - Gentoo penguins tend to have larger body mass compared to other species.
