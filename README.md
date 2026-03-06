@@ -131,8 +131,6 @@ This project helped us better understand how data analysis can be used to identi
 - **Chung Vong**: Repository Manager (GitHub Management, Data Hosting & Documentation)
 
 ## 📍Data Source
-### The dataset is based on the Palmer Penguins dataset.
-Source:
-https://allisonhorst.github.io/palmerpenguins/
-
+### The dataset is based on the Seaborn Penguins dataset.
+Source:[Seaborn penguins](https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv)
 
